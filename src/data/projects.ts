@@ -14,7 +14,7 @@ const projects: Project[] = [
   {
     title: "MakeReadme",
     techs: ["ReactJS", "ExpressJS", "Gemini API", "Tailwind CSS"],
-    link: "https://github.com/MaeWolff/create-nextjs-app-bash-script",
+    link: "https://makereadme.vercel.app/",
   },
 ];
 
