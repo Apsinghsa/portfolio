@@ -1,86 +1,56 @@
-# Developer Portfolio Template 🚀
+# 👨‍🚀 Astro - Portfolio Template
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Template](https://github.com/MaeWolff/astro-portfolio-template/blob/main/public/opengraph-image.jpg)
 
-## What is this?
+This theme/template is designed and crafted by [me](https://www.maxencewolff.com).
+NB: Additional color themes can also be configured on the `src/data/theme.ts` file.
 
-This simple portfolio template is designed to showcase your past projects, career history, skill sets, and more.
+## 🥷 Usage
 
-View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
+- You can modify all the information in the files in the `data` folder (presentation, social links, projects list, colors).
+- You can write articles in `markdown` format in the `content/posts` folder.
 
-**This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use. Please don't forget to leave a ⭐ if you like this portfolio!
+## 🧞 Commands
 
-![screenshot](./src/assets//images/screenshot.png)
+All commands are run from the root of the project, from a terminal:
 
-## Features
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-✅ Open source (free to use, no attribution required)  
-✅ Responsive design & mobile-friendly  
-✅ Supports both dark and light modes  
-✅ Highly customizable multi-component layout  
-✅ Built with modern technologies (React, TypeScript, JavaScript, and SCSS)  
+## Contributors ✨
 
-## Quick Setup
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SterbenVD"><img src="https://avatars.githubusercontent.com/u/90999906?v=4?s=100" width="100px;" alt="Vishal Vijay Devadiga"/><br /><sub><b>Vishal Vijay Devadiga</b></sub></a><br /><a href="https://github.com/MaeWolff/astro-portfolio-template/commits?author=SterbenVD" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/khushChopra"><img src="https://avatars.githubusercontent.com/u/43996455?v=4?s=100" width="100px;" alt="Khush Chopra"/><br /><sub><b>Khush Chopra</b></sub></a><br /><a href="https://github.com/MaeWolff/astro-portfolio-template/commits?author=khushChopra" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://jbrave.ir"><img src="https://avatars.githubusercontent.com/u/57140027?v=4?s=100" width="100px;" alt="Javad Shoja"/><br /><sub><b>Javad Shoja</b></sub></a><br /><a href="#maintenance-javadshoja" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://rishi.app"><img src="https://avatars.githubusercontent.com/u/46300090?v=4?s=100" width="100px;" alt="Rishi Raj Jain"/><br /><sub><b>Rishi Raj Jain</b></sub></a><br /><a href="https://github.com/MaeWolff/astro-portfolio-template/commits?author=rishi-raj-jain" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://zackbraksa.com"><img src="https://avatars.githubusercontent.com/u/379453?v=4?s=100" width="100px;" alt="Zack Braksa"/><br /><sub><b>Zack Braksa</b></sub></a><br /><a href="https://github.com/MaeWolff/astro-portfolio-template/commits?author=zackbraksa" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
 
-1. Ensure you have [Node.js](https://nodejs.org/) installed. Check your installation by running:
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
-    ```bash
-    node -v
-    ```
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 
-2. In the project directory, install dependencies:
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
-    ```bash
-    npm install
-    ```
-
-3. Start the development server:
-
-    ```bash
-    npm start
-    ```
-
-4. Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
-
-5. Customize the template by navigating to the `/src/components` directory. Modify texts, pictures, and other information as needed.
-
-The page will reload if you make edits, and you will see any lint errors in the console.
-
-If you are interested in creating a mockup image like the ones from the personal projects section, I recommend [Genmoo](https://gemoo.com/tools/browser-mockup-generator/). This website lets you generate sleek looking browser mockups for free.
-
-## Deployment
-
-You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/), [Render](https://render.com/), [Heroku](https://www.heroku.com/)) for deployment. One of the easiest ways to host this portfolio is using GitHub Pages. Follow the instructions below for a production deploy.
-
-1. **Set Up GitHub Repository**
-
-    Create a new repository on GitHub for your portfolio app.
-
-2. **Configure `package.json`**
-
-    Edit the following properties in your `package.json` file:
-
-    ```json
-    {
-        "homepage": "https://yourusername.github.io/your-repo-name",
-        "scripts": {
-            "predeploy": "npm run build",
-            "deploy": "gh-pages -d build",
-            ...
-        }
-    }
-    ```
-
-    Replace `yourusername` with your GitHub username and `your-repo-name` with the name of your GitHub repository.
-
-3. **Deploy to GitHub Pages**
-
-    Run the following command to deploy your app:
-
-    ```bash
-    npm run deploy
-    ```
-
-4. **Access Your Deployed App**
-
-    After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
+<!-- ALL-CONTRIBUTORS-LIST:END -->
