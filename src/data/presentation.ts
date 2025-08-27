@@ -17,7 +17,7 @@ const presentation: Presentation = {
   // profile: "/profile.webp",
 
   description:
-    "Bonjour, i'm a *frontend developer* & and an undergraduate student. I am currently working with *MERN Stack*.",
+    "Bonjour, i'm a *full stack developer* & and an undergraduate student. I am currently working with *MERN Stack*.",
   
     socials: [
     {
